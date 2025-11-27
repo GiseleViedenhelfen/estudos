@@ -1,7 +1,18 @@
 function Home() {
   return (
-  <div style={{"display": "flex" ,"justifyContent": "center", "alignItems": "center", "height": "100vh"}}>
-    <span>vc faz tudo valer a pena s2</span>
+  <div
+    style={{
+      "display": "flex" ,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "height": "100vh",
+      
+      }}
+    >
+      <section style={{width: "fit-content"}}>
+        <span>você faz tudo valer a pena</span>
+        <span role="img" aria-label="heart">❤️</span>
+      </section>
   </div>
   );
 }
